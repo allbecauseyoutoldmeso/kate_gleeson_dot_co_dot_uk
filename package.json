@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
+    "test": ".gitignore/node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
   },
   "author": "",
   "license": "ISC",

@@ -5,7 +5,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response){
-  response.render('index',{name:'Kate'})
+  response.render('index', {name: 'kate'} )
 });
 
 server.listen(3000, function(){
